@@ -1,23 +1,16 @@
 class Solution {
 public:
     int partitionArray(vector<int>& nums, int k) {
-        vector<pair<int,int>> temp;
 
-        for(int i=0;i<nums.size();i++){
-            temp.push_back({nums[i],i});
-        }
-
-        sort(temp.begin(),temp.end());
+        sort(nums.begin(),nums.end());
         int cnt=0;
 
         int i=0,j=0;
 
-        while(j<temp.size()){
-            int mini=temp[i].first;
+        while(j<nums.size()){
+            int mini=nums[i];
 
-            // vector<pair<int,int>> temp2;
-
-            while(j<temp.size() && (temp[j].first-temp[i].first)<=k){
+            while(j<nums.size() && (nums[j]-nums[i])<=k){
                 j++;
             }
             i=j;
