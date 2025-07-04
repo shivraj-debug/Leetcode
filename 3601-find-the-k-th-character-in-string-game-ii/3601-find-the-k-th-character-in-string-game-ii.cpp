@@ -20,6 +20,8 @@ public:
             }
         }
 
-        return (char)((('a' - 'a' + shift) % 26) + 'a');
+        shift=shift%26;
+
+        return (char)(shift+'a');
     }
 };
