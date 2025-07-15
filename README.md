@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/shivraj-debug/Leetcode/tree/master/0056-merge-intervals) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/shivraj-debug/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/shivraj-debug/Leetcode/tree/master/0056-merge-intervals) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
