@@ -31,7 +31,7 @@ public:
                 if (count == 0) continue;
 
                 // Only insert if it helps: either same char or diff in between same chars
-                if (c == board[i] || (i > 0 && board[i - 1] == board[i] && board[i - 1] != c)) {
+                if (c == board[i] || (i > 0 && board[i - 1] == board[i] && board[i] != c)) {
                     hand[c]--;
                     string newBoard = board.substr(0, i) + c + board.substr(i);
                     int steps = dfs(newBoard, hand);
@@ -49,7 +49,7 @@ public:
     string serialize(unordered_map<char, int>& hand) {
         string result;
         for (char c : {'R', 'Y', 'B', 'G', 'W'}) {
-            result += string(1, c) + to_string(hand[c]);
+            result += c + to_string(hand[c]);
         }
         return result;
     }
