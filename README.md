@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/shivraj-debug/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/shivraj-debug/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/shivraj-debug/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/shivraj-debug/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/shivraj-debug/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Greedy
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
+| [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/shivraj-debug/Leetcode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/shivraj-debug/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -171,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/shivraj-debug/Leetcode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/shivraj-debug/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Backtracking
@@ -199,4 +203,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 <!---LeetCode Topics End-->
