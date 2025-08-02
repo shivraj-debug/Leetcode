@@ -1,37 +1,66 @@
 class Solution {
 public:
     long long minCost(vector<int>& basket1, vector<int>& basket2) {
-        unordered_map<int, int> freq;
+        unordered_map<int,int> mp1;
+        unordered_map<int,int> mp2;
+        unordered_map<int,int> mp;
 
-        for (int x : basket1) freq[x]++;
-        for (int x : basket2) freq[x]--;
-
-        vector<int> excess;
-
-        // Check if it's possible to make the baskets equal
-        for (auto& [fruit, count] : freq) {
-            if (count % 2 != 0) return -1; // Cannot be made equal
-            for (int i = 0; i < abs(count) / 2; ++i)
-                excess.push_back(fruit);
+        for(auto& it:basket1){
+            mp1[it]++;
+            mp[it]++;
         }
 
-        if (excess.empty()) return 0;
-
-        // Find the minimum fruit cost across both baskets
-        int minVal = min(*min_element(basket1.begin(), basket1.end()), *min_element(basket2.begin(), basket2.end()));
-
-        sort(excess.begin(), excess.end());
-
-        long long cost = 0;
-        int swaps = excess.size() / 2;
-
-        // For each swap, we pick the cheaper of:
-        // - the fruit itself
-        // - 2 * minVal (replace both fruits with the smallest value)
-        for (int i = 0; i < swaps; ++i) {
-            cost += min(excess[i], 2 * minVal);
+        for(auto& it:basket2){
+            mp2[it]++;
+            mp[it]++;
         }
 
-        return cost;
+        for(auto it:mp){
+            if((it.second)%2!=0){
+                return -1;
+            }
+        }
+
+        vector<int> st;
+
+
+        for(auto& it:mp1){
+            if(mp2.find(it.first)!=mp2.end()){
+                int diff=abs(it.second-mp2[it.first])/2;
+                for(int i=0;i<diff;i++){
+                    st.push_back(it.first);
+                }
+                mp1[it.first]=0;
+                mp2[it.first]=0;
+            }
+        }
+
+        for(auto& it:mp1){
+             for(int i=0;i<it.second/2;i++){
+                    st.push_back(it.first);
+                }
+        }
+
+
+        for(auto& it:mp2){
+             for(int i=0;i<it.second/2;i++){
+                    st.push_back(it.first);
+                }
+        }
+
+        sort(st.begin(),st.end());
+
+        int minVal=min(*min_element(basket1.begin(),basket1.end()),*min_element(basket2.begin(),basket2.end()));
+        
+        int n=st.size();
+
+        long long res=0;
+
+        for(int i=0;i<n/2;i++){
+            res+=min(st[i],2*minVal);
+        }
+
+        return res;
+
     }
 };
