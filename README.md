@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
+| [0867-new-21-game](https://github.com/shivraj-debug/Leetcode/tree/master/0867-new-21-game) |
 | [0940-fruit-into-baskets](https://github.com/shivraj-debug/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1813-maximum-erasure-value](https://github.com/shivraj-debug/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/shivraj-debug/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/shivraj-debug/Leetcode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/shivraj-debug/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/shivraj-debug/Leetcode/tree/master/0342-power-of-four) |
+| [0867-new-21-game](https://github.com/shivraj-debug/Leetcode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/shivraj-debug/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1448-maximum-69-number](https://github.com/shivraj-debug/Leetcode/tree/master/1448-maximum-69-number) |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/shivraj-debug/Leetcode/tree/master/0118-pascals-triangle) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
+| [0867-new-21-game](https://github.com/shivraj-debug/Leetcode/tree/master/0867-new-21-game) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/shivraj-debug/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1250-longest-common-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -336,4 +339,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/shivraj-debug/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0867-new-21-game](https://github.com/shivraj-debug/Leetcode/tree/master/0867-new-21-game) |
 <!---LeetCode Topics End-->
