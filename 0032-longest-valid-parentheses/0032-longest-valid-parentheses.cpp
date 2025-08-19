@@ -6,7 +6,7 @@ public:
         int maxlen=0;
 
         for(int i=0;i<s.size();i++){
-            if(!st.empty()){
+          
                 if(s[i]=='('){
                     st.push(i);
                 }else{
@@ -17,9 +17,7 @@ public:
                         maxlen=max(maxlen,len);
                     }
                 }
-            }else{
-                st.push(i);
-            }
+            
         }
 
         return maxlen;
