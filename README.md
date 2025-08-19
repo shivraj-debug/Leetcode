@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-maximum-69-number](https://github.com/shivraj-debug/Leetcode/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/shivraj-debug/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/shivraj-debug/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/shivraj-debug/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/shivraj-debug/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/shivraj-debug/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/shivraj-debug/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [2529-range-product-queries-of-powers](https://github.com/shivraj-debug/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [3618-find-the-original-typed-string-ii](https://github.com/shivraj-debug/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/shivraj-debug/Leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/shivraj-debug/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/shivraj-debug/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1813-maximum-erasure-value](https://github.com/shivraj-debug/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/shivraj-debug/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1695-maximum-sum-obtained-of-any-permutation](https://github.com/shivraj-debug/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/shivraj-debug/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/shivraj-debug/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
