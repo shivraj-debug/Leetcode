@@ -11,9 +11,6 @@ public:
             next_permutation(arr.begin(), arr.end());
         }
 
-
-        for(auto i : arr) cout << i << " ";
-
         for(int i = 0; i < arr.size(); i++) {
 
             ans.push_back(arr[i]+'0');
