@@ -1,21 +1,21 @@
 class Solution {
 public:
     string getPermutation(int n, int k) {
-        vector<int> arr(n, 0);
-        string ans = "";
-        for(int i = 1; i <= n; i++) {
-            arr[i-1] = i;
-        }
+       vector<int> temp;
+       for(int i=1;i<=n;i++){
+         temp.push_back(i);
+       }
 
-        for(int i = 1; i < k; i++) {
-            next_permutation(arr.begin(), arr.end());
-        }
+       for(int i=0;i<k-1;i++){
+          next_permutation(temp.begin(),temp.end());
+       }
 
-        for(int i = 0; i < arr.size(); i++) {
+       string res="";
 
-            ans.push_back(arr[i]+'0');
-        }
+       for(auto& it:temp){
+            res+=('0'+it);
+       }
 
-        return ans; 
+       return res;
     }
 };
