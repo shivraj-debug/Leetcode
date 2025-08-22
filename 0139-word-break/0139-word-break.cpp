@@ -1,31 +1,21 @@
-class Solution {
+ class Solution {
 public:
-    unordered_map<string,int> mp;
-    vector<int> dp;
     bool wordBreak(string s, vector<string>& wordDict) {
-        for(auto& it:wordDict){
-            mp[it]++;
-        }
+        unordered_set<string> dict(wordDict.begin(), wordDict.end());
+        int n = s.size();
 
-        dp.resize(s.size(),-1);
+        vector<bool> dp(n+1, false);
+        dp[0] = true; // empty prefix is valid
 
-        return solve(s,0,wordDict);
-    }
-
-    bool solve(string& s,int i,vector<string>& wordDict){
-        if(i==s.size()) return true;
-
-        if(dp[i]!=-1) return dp[i];
-
-        string st="";
-        for(int j=i;j<s.size();j++){
-            st+=s[j];
-            if(mp.find(st)!=mp.end()){
-                if(solve(s,j+1,wordDict)) return dp[i] = true;
+        for(int i=1; i<=n; i++) {
+            for(int j=0; j<i; j++) {
+                if(dp[j] && dict.find(s.substr(j, i-j)) != dict.end()) {
+                    dp[i] = true;
+                    break; // no need to check further
+                }
             }
         }
 
-        return dp[i]=false;
+        return dp[n];
     }
-
 };
