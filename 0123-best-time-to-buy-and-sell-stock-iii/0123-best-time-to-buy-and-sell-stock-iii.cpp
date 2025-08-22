@@ -1,26 +1,28 @@
 class Solution {
 public:
-    int dp[100001][2][3]; // n x buy(0/1) x k(0..2)
-
     int maxProfit(vector<int>& prices) {
-        memset(dp, -1, sizeof(dp));
-        return rec(0, prices, 0, 0);
-    }
+        int n = prices.size();
+        // dp[i][buy][k]
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(3, 0)));
 
-    int rec(int i, vector<int>& prices, int buy, int k) {
-        if(i >= prices.size() || k == 2) return 0;
-
-        if(dp[i][buy][k] != -1) return dp[i][buy][k];
-
-        int a = rec(i+1, prices, buy, k); // skip
-        int b;
-
-        if(buy == 0) { // can buy
-            b = rec(i+1, prices, 1, k) - prices[i];
-        } else { // can sell
-            b = rec(i+1, prices, 0, k+1) + prices[i];
+        for(int i = n-1; i >= 0; i--) {
+            for(int buy = 0; buy <= 1; buy++) {
+                for(int k = 0; k < 2; k++) { // max 2 transactions
+                    if(buy == 0) {
+                        dp[i][buy][k] = max(
+                            dp[i+1][0][k],             // skip
+                            -prices[i] + dp[i+1][1][k] // buy
+                        );
+                    } else {
+                        dp[i][buy][k] = max(
+                            dp[i+1][1][k],             // skip
+                            prices[i] + dp[i+1][0][k+1] // sell
+                        );
+                    }
+                }
+            }
         }
 
-        return dp[i][buy][k] = max(a, b);
+        return dp[0][0][0]; // start: day 0, can buy, 0 transactions done
     }
 };
