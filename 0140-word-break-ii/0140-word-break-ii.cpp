@@ -1,34 +1,37 @@
 class Solution {
 public:
-    unordered_set<string> dict;
-    unordered_map<int, vector<string>> memo;
-
+    unordered_map<string,int> mp;
+    vector<string> ans;
+    vector<string> path;
     vector<string> wordBreak(string s, vector<string>& wordDict) {
-        for (auto &w : wordDict) dict.insert(w);
-        return solve(s, 0);
+        for(auto& it:wordDict){
+            mp[it]++;
+        }
+
+         solve(s,0,wordDict);
+
+         return ans;
     }
 
-    vector<string> solve(string &s, int i) {
-        if (memo.count(i)) return memo[i];
-
-        vector<string> res;
-        if (i == s.size()) {
-            res.push_back(""); // base: empty sentence
-            return res;
+     void solve(string& s,int i,vector<string>& wordDict){
+        if(i==s.size()) {
+            string sentence;
+            for (int k = 0; k < path.size(); k++) {
+                if (k > 0) sentence += " ";
+                sentence += path[k];
+            }
+            ans.push_back(sentence);
+            return;
         }
 
-        string word;
-        for (int j = i; j < s.size(); j++) {
-            word.push_back(s[j]);
-            if (dict.count(word)) {
-                vector<string> sub = solve(s, j + 1);
-                for (auto &seg : sub) {
-                    if (seg.empty()) res.push_back(word);
-                    else res.push_back(word + " " + seg);
-                }
+        string st="";
+        for(int j=i;j<s.size();j++){
+            st+=s[j];
+            if(mp.find(st)!=mp.end()){
+                path.push_back(st);
+                solve(s,j+1,wordDict);
+                path.pop_back();
             }
         }
-
-        return memo[i] = res;
     }
 };
