@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/shivraj-debug/Leetcode/tree/master/0041-first-missing-positive) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/shivraj-debug/Leetcode/tree/master/0940-fruit-into-baskets) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/shivraj-debug/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0679-24-game](https://github.com/shivraj-debug/Leetcode/tree/master/0679-24-game) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/shivraj-debug/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0060-permutation-sequence](https://github.com/shivraj-debug/Leetcode/tree/master/0060-permutation-sequence) |
+| [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0231-power-of-two](https://github.com/shivraj-debug/Leetcode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/shivraj-debug/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/shivraj-debug/Leetcode/tree/master/0342-power-of-four) |
@@ -406,4 +409,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1628-count-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
+## Geometry
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
