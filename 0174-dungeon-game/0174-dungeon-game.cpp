@@ -1,33 +1,21 @@
 class Solution {
 public:
-    int n, m;
-    vector<vector<int>> dp;
-
     int calculateMinimumHP(vector<vector<int>>& dungeon) {
-        n = dungeon.size();
-        m = dungeon[0].size();
-        dp.assign(n, vector<int>(m, -1));
+        int n = dungeon.size();
+        int m = dungeon[0].size();
 
-        return rec(dungeon, 0, 0);
-    }
+        vector<vector<int>> dp(n + 1, vector<int>(m + 1, INT_MAX));
 
-    int rec(vector<vector<int>>& d, int i, int j) {
-        // Out of bounds → return infinity (invalid path)
-        if (i >= n || j >= m) return INT_MAX;
+        dp[n][m - 1] = 1;
+        dp[n - 1][m] = 1;
 
-        // Princess cell (bottom-right)
-        if (i == n - 1 && j == m - 1) {
-            return max(1, 1 - d[i][j]);
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = m - 1; j >= 0; j--) {
+                int need = min(dp[i + 1][j], dp[i][j + 1]) - dungeon[i][j];
+                dp[i][j] = max(1, need);
+            }
         }
 
-        // Already computed
-        if (dp[i][j] != -1) return dp[i][j];
-
-        // Recurse to right and down
-        int right = rec(d, i, j + 1);
-        int down  = rec(d, i + 1, j);
-
-        int need = min(right, down) - d[i][j];
-        return dp[i][j] = max(1, need);
+        return dp[0][0];
     }
 };
