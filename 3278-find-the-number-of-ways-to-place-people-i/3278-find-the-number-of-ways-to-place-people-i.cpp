@@ -7,9 +7,7 @@ public:
 
     int numberOfPairs(vector<vector<int>>& P) {
         sort(P.begin(), P.end(), cmp);
-        for(int i=0;i<P.size();i++){
-            cout<<'['<<P[i][0]<<P[i][1]<<']';
-        }
+        
         int n = P.size(), ans = 0;
         for(int i=0; i<n-1; i++){
             int y=INT_MAX;
