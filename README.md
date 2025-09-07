@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
 | [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
+| [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/shivraj-debug/Leetcode/tree/master/0940-fruit-into-baskets) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/shivraj-debug/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
 | [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
+| [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 | [0174-dungeon-game](https://github.com/shivraj-debug/Leetcode/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/shivraj-debug/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
@@ -286,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/shivraj-debug/Leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/shivraj-debug/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 | [0220-contains-duplicate-iii](https://github.com/shivraj-debug/Leetcode/tree/master/0220-contains-duplicate-iii) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
@@ -415,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/shivraj-debug/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/shivraj-debug/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 ## Breadth-First Search
 |  |
 | ------- |
