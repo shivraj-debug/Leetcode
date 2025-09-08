@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 | [0174-dungeon-game](https://github.com/shivraj-debug/Leetcode/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/shivraj-debug/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/shivraj-debug/Leetcode/tree/master/0189-rotate-array) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0220-contains-duplicate-iii](https://github.com/shivraj-debug/Leetcode/tree/master/0220-contains-duplicate-iii) |
 | [0239-sliding-window-maximum](https://github.com/shivraj-debug/Leetcode/tree/master/0239-sliding-window-maximum) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0060-permutation-sequence](https://github.com/shivraj-debug/Leetcode/tree/master/0060-permutation-sequence) |
 | [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
+| [0189-rotate-array](https://github.com/shivraj-debug/Leetcode/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/shivraj-debug/Leetcode/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/shivraj-debug/Leetcode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/shivraj-debug/Leetcode/tree/master/0326-power-of-three) |
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/shivraj-debug/Leetcode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/shivraj-debug/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/shivraj-debug/Leetcode/tree/master/0189-rotate-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/shivraj-debug/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/shivraj-debug/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
