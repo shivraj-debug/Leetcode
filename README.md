@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/shivraj-debug/Leetcode/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/shivraj-debug/Leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1448-maximum-69-number](https://github.com/shivraj-debug/Leetcode/tree/master/1448-maximum-69-number) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/shivraj-debug/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/shivraj-debug/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/shivraj-debug/Leetcode/tree/master/0041-first-missing-positive) |
+| [0045-jump-game-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0045-jump-game-ii) |
 | [0051-n-queens](https://github.com/shivraj-debug/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/shivraj-debug/Leetcode/tree/master/0055-jump-game) |
@@ -343,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/shivraj-debug/Leetcode/tree/master/0010-regular-expression-matching) |
 | [0032-longest-valid-parentheses](https://github.com/shivraj-debug/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/shivraj-debug/Leetcode/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/shivraj-debug/Leetcode/tree/master/0055-jump-game) |
 | [0087-scramble-string](https://github.com/shivraj-debug/Leetcode/tree/master/0087-scramble-string) |
