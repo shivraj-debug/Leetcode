@@ -1,30 +1,27 @@
 class Solution {
 public:
     string sortVowels(string s) {
-        vector<char> v;
-        string res(s.begin(),s.end());
+        unordered_map<char,int> mp;
 
-        string vowel="aeiouAEIOU";
+        string vowel="AEIOUaeiou";
 
         for(int i=0;i<s.size();i++){
-            if(find(vowel.begin(),vowel.end(),s[i])!=vowel.end()){
-                v.push_back(s[i]); 
-                res[i]='1';
+            if(vowel.find(s[i])!=string::npos){
+                mp[s[i]]++; 
             }
         }
 
-        int i=0;
+        int idx=0;
 
-        sort(v.begin(),v.end());
-
-        for(auto& it:v){
-            while(i<s.size() && res[i]!='1'){
-                i++;
+        for(int i=0;i<s.size();i++){
+            if(vowel.find(s[i])!=string::npos){
+                while(idx<vowel.size() && mp[vowel[idx]]==0){
+                    idx++;
+                }
+                s[i]=vowel[idx];
+                mp[vowel[idx]]--;
             }
-            res[i]=it;
-            i++;
         }
-
-        return res;
+        return s;
     }
 };
