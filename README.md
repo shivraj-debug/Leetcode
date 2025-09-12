@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/shivraj-debug/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1695-maximum-sum-obtained-of-any-permutation](https://github.com/shivraj-debug/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [2529-range-product-queries-of-powers](https://github.com/shivraj-debug/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [3618-find-the-original-typed-string-ii](https://github.com/shivraj-debug/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/shivraj-debug/Leetcode/tree/master/0189-rotate-array) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0220-contains-duplicate-iii](https://github.com/shivraj-debug/Leetcode/tree/master/0220-contains-duplicate-iii) |
+| [0238-product-of-array-except-self](https://github.com/shivraj-debug/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/shivraj-debug/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/shivraj-debug/Leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shivraj-debug/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
