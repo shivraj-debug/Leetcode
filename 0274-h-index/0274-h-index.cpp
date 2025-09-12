@@ -4,19 +4,13 @@ public:
         int n = citations.size();
         int res = 0;
 
-        // try every possible h from 1 to n
-        for (int h = 1; h <= n; h++) {
-            int cnt = 0;
+        sort(citations.begin(), citations.end()); // ascending
 
-            // count how many papers have citations >= h
-            for (int j = 0; j < n; j++) {
-                if (citations[j] >= h) {
-                    cnt++;
-                }
-            }
-
-            if (cnt >= h) {
-                res = max(res, h);
+        for (int i = 0; i < n; i++) {
+            int h = n - i;  // number of papers with at least citations[i]
+            if (citations[i] >= h) {
+                res = h;
+                break; // since sorted ascending, this is the max possible h
             }
         }
 
