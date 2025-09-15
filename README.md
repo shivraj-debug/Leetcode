@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/shivraj-debug/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1250-longest-common-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/shivraj-debug/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/shivraj-debug/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/shivraj-debug/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/shivraj-debug/Leetcode/tree/master/2079-delete-duplicate-folders-in-system) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/shivraj-debug/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/shivraj-debug/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/shivraj-debug/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1813-maximum-erasure-value](https://github.com/shivraj-debug/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/shivraj-debug/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
