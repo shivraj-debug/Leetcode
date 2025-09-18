@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2689-rearranging-fruits](https://github.com/shivraj-debug/Leetcode/tree/master/2689-rearranging-fruits) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/shivraj-debug/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/shivraj-debug/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3678-design-task-manager](https://github.com/shivraj-debug/Leetcode/tree/master/3678-design-task-manager) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/shivraj-debug/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/shivraj-debug/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/shivraj-debug/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/shivraj-debug/Leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2479-meeting-rooms-iii](https://github.com/shivraj-debug/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/shivraj-debug/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3678-design-task-manager](https://github.com/shivraj-debug/Leetcode/tree/master/3678-design-task-manager) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -479,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/shivraj-debug/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/shivraj-debug/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2429-design-a-food-rating-system](https://github.com/shivraj-debug/Leetcode/tree/master/2429-design-a-food-rating-system) |
+| [3678-design-task-manager](https://github.com/shivraj-debug/Leetcode/tree/master/3678-design-task-manager) |
 ## Linked List
 |  |
 | ------- |
@@ -520,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0220-contains-duplicate-iii](https://github.com/shivraj-debug/Leetcode/tree/master/0220-contains-duplicate-iii) |
 | [2429-design-a-food-rating-system](https://github.com/shivraj-debug/Leetcode/tree/master/2429-design-a-food-rating-system) |
+| [3678-design-task-manager](https://github.com/shivraj-debug/Leetcode/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/shivraj-debug/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/shivraj-debug/Leetcode/tree/master/3791-fruits-into-baskets-iii) |
 ## Matrix
