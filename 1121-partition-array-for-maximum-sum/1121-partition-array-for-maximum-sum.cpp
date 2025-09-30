@@ -5,26 +5,20 @@ public:
     
     int maxSumAfterPartitioning(vector<int>& arr, int k) {
         n=arr.size();
-        dp.resize(n,-1);
-        return solve(arr,k,0);
-    }
+        dp.resize(n+1,0);
 
-    int solve(vector<int>& arr,int k,int idx){
-        if(idx>=n) return 0;
+        for(int i=n-1;i>=0;i--){
+            int len=0;
+            int maxi=0;
+            int maxsum=0;
+            for(int j=i;j<min(i+k,n);j++){
+                len++;
+                maxi=max(maxi,arr[j]);
+                maxsum=max(maxsum,len*maxi+dp[j+1]);
+            }
 
-        if(dp[idx]!=-1) return dp[idx];
-
-        int len=0;
-        int maxi=INT_MIN;
-        int maxiSum=INT_MIN;
-
-        for(int i=idx;i<min(idx+k,n);i++){
-            len++;
-            maxi=max(maxi,arr[i]);
-            int sum=maxi*len + solve(arr,k,i+1);
-            maxiSum=max(maxiSum,sum);
+            dp[i]=maxsum;
         }
-
-        return dp[idx]=maxiSum;
-    }
+        return dp[0];
+    }   
 };
