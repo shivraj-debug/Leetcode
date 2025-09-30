@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/shivraj-debug/Leetcode/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/shivraj-debug/Leetcode/tree/master/0058-length-of-last-word) |
 | [0087-scramble-string](https://github.com/shivraj-debug/Leetcode/tree/master/0087-scramble-string) |
+| [0132-palindrome-partitioning-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shivraj-debug/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/shivraj-debug/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0132-palindrome-partitioning-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
 | [0174-dungeon-game](https://github.com/shivraj-debug/Leetcode/tree/master/0174-dungeon-game) |
