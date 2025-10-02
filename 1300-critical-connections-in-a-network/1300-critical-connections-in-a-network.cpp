@@ -32,7 +32,6 @@ public:
             if(it==parent) continue;
             if(!vis[it]){
                 dfs(it,node,vis,adj,t,mint);
-                // mint[node]=min(mint[node],mint[it]);
                 mint[node] = min(mint[node], mint[it]); 
 
                 if(mint[it]>t[node]){
@@ -40,7 +39,7 @@ public:
                 }
             }else{
                 // mint[node]=min(mint[node],mint[it]);
-                mint[node] = min(mint[node], t[it]); 
+                mint[node] = min(mint[node], mint[it]); 
             }
         }
     }
