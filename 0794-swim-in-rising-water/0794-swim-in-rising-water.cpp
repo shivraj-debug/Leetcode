@@ -10,31 +10,30 @@ public:
         vector<vector<int>> dir={{0,1},{1,0},{-1,0},{0,-1}};
         vector<vector<int>> vis(n,vector<int>(m,false));
 
-        // vis[0][0]=true;
+        int curr=0;
 
         while(!q.empty()){
-            int size=q.size();
-            int time=q.top().first;
-            int x=q.top().second.first;
-            int y=q.top().second.second;
-
+            auto [mini_time, cell] = q.top();
             q.pop();
-            if(vis[x][y]) continue;
-            vis[x][y]=true;
-            
+            int x = cell.first, y = cell.second;
 
-           if (x == n-1 && y == m-1) return time;
+            if (vis[x][y]) continue; 
+            vis[x][y] = true;
 
-            for(int i=0;i<4;i++){
-                int new_x=x+dir[i][0];
-                int new_y=y+dir[i][1];
+            // update time as the max elevation so far
+            curr = max(curr, mini_time);
 
-                if(new_x<n && new_x>=0 && new_y<m && new_y>=0 && !vis[new_x][new_y]){
-                    q.push({max(time, grid[new_x][new_y]), {new_x, new_y}});
+            // if reached bottom-right return
+            if (x == n-1 && y == m-1) return curr;
+
+            // explore neighbors
+            for (auto &d : dir) {
+                int nx = x + d[0], ny = y + d[1];
+                if (nx >= 0 && nx < n && ny >= 0 && ny < m && !vis[nx][ny]) {
+                    q.push({grid[nx][ny], {nx, ny}});
                 }
             }
         }
-
-        return -1;
+        return curr;
     }
 };
