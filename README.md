@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/shivraj-debug/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/shivraj-debug/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/shivraj-debug/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0407-trapping-rain-water-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1917-maximum-average-pass-ratio](https://github.com/shivraj-debug/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/shivraj-debug/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/shivraj-debug/Leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shivraj-debug/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0407-trapping-rain-water-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/shivraj-debug/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/shivraj-debug/Leetcode/tree/master/0611-valid-triangle-number) |
@@ -538,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 ## Hash Function
@@ -576,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/shivraj-debug/Leetcode/tree/master/0037-sudoku-solver) |
 | [0174-dungeon-game](https://github.com/shivraj-debug/Leetcode/tree/master/0174-dungeon-game) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/shivraj-debug/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
