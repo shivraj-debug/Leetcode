@@ -286,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/shivraj-debug/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1628-count-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/shivraj-debug/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1695-maximum-sum-obtained-of-any-permutation](https://github.com/shivraj-debug/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1813-maximum-erasure-value](https://github.com/shivraj-debug/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/shivraj-debug/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1695-maximum-sum-obtained-of-any-permutation](https://github.com/shivraj-debug/Leetcode/tree/master/1695-maximum-sum-obtained-of-any-permutation) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/shivraj-debug/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -476,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/shivraj-debug/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/shivraj-debug/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/shivraj-debug/Leetcode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/shivraj-debug/Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
