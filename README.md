@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/shivraj-debug/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/shivraj-debug/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0407-trapping-rain-water-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0407-trapping-rain-water-ii) |
+| [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/shivraj-debug/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0417-pacific-atlantic-water-flow](https://github.com/shivraj-debug/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1300-critical-connections-in-a-network](https://github.com/shivraj-debug/Leetcode/tree/master/1300-critical-connections-in-a-network) |
@@ -573,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/shivraj-debug/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
+| [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/shivraj-debug/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -739,6 +742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1300-critical-connections-in-a-network](https://github.com/shivraj-debug/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/shivraj-debug/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -749,5 +753,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
