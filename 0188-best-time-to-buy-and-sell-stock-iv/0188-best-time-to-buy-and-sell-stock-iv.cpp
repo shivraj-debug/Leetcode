@@ -1,30 +1,34 @@
 class Solution {
 public:
-    int n;
-    vector<vector<vector<int>>> dp;
+    int maxProfit(int K, vector<int>& prices) {
+        int n = prices.size();
+        if (n == 0 || K == 0) return 0;
 
-    int maxProfit(int k, vector<int>& prices) {
-        n = prices.size();
-        dp.assign(k + 1, vector<vector<int>>(n, vector<int>(2, -1)));
-        return rec(k, 0, prices, 1); // 1 means we can buy
-    }
+        // dp[k][i][buy]
+        // k = number of transactions remaining (1..K)
+        // i = day (0..n)
+        // buy = 0 (we have stock to sell), 1 (we can buy)
+        vector<vector<vector<int>>> dp(K + 1, vector<vector<int>>(n + 1, vector<int>(2, 0)));
 
-    int rec(int k, int i, vector<int>& prices, int buy) {
-        if (i >= n || k == 0) return 0;
+        // Base case: dp[*][n][*] = 0 already (when day > n, profit = 0)
 
-        if (dp[k][i][buy] != -1) return dp[k][i][buy];
+        // Fill table from back to front (i = n-1 downto 0)
+        for (int k = 1; k <= K; k++) {  // At least 1 transaction needed
+            for (int i = n - 1; i >= 0; i--) {
+                // If we can buy
+                dp[k][i][1] = max(
+                    dp[k][i + 1][1],              // skip buying
+                    dp[k][i + 1][0] - prices[i]   // buy today
+                );
 
-        int ans;
-        if (buy) {
-            int skip = rec(k, i + 1, prices, 1);
-            int take = rec(k, i + 1, prices, 0) - prices[i];
-            ans = max(skip, take);
-        } else {
-            int skip = rec(k, i + 1, prices, 0);
-            int take = rec(k - 1, i + 1, prices, 1) + prices[i];
-            ans = max(skip, take);
+                // If we are holding stock (need to sell)
+                dp[k][i][0] = max(
+                    dp[k][i + 1][0],               // skip selling
+                    dp[k - 1][i + 1][1] + prices[i] // sell today → use one transaction
+                );
+            }
         }
 
-        return dp[k][i][buy] = ans;
+        return dp[K][0][1]; // Start at day 0 with k=K and allowed to buy
     }
 };
