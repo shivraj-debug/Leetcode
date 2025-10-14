@@ -1,27 +1,17 @@
 class Solution {
 public:
-    vector<vector<int>> dp;
+    
     int maxProfit(vector<int>& prices) {
         int n=prices.size();
-        dp.assign(n+1,vector<int>(n+1,-1));
-        return solve(prices,0,true);
-    }
-    int solve(vector<int>& prices,int i,bool buy){
-        if(i>=prices.size()){
-            return 0;
+        vector<vector<int>> dp(n+2,vector<int>(2,0));
+        // 1-> sell 0->buy
+        for(int i=n-1;i>=0;i--){
+            // buy a share
+            dp[i][1]=max(dp[i+1][1],dp[i+1][0]-prices[i]);
+            // sell a share
+            dp[i][0]=max(dp[i+1][0],dp[i+2][1]+prices[i]);
         }
 
-        if(dp[i][buy]!=-1) return dp[i][buy];
-
-        int take,notTake;
-        if(buy){
-            take=solve(prices,i+1,!buy)-prices[i];
-            notTake=solve(prices,i+1,buy);
-        }else{
-            take=solve(prices,i+2,!buy)+prices[i];
-            notTake=solve(prices,i+1,buy);
-        }
-
-        return dp[i][buy]=max(take,notTake);
+        return dp[0][1];
     }
 };
