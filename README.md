@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/shivraj-debug/Leetcode/tree/master/0224-basic-calculator) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
+| [0516-longest-palindromic-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/shivraj-debug/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1197-parsing-a-boolean-expression](https://github.com/shivraj-debug/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
@@ -501,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/shivraj-debug/Leetcode/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/shivraj-debug/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
+| [0516-longest-palindromic-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0867-new-21-game](https://github.com/shivraj-debug/Leetcode/tree/master/0867-new-21-game) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/shivraj-debug/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
