@@ -5,25 +5,20 @@ public:
     int minDistance(string word1, string word2) {
          n=word1.size();
          m=word2.size();
-         dp.assign(n,vector<int>(m,-1));
-        return solve(word1,word2,0,0);
-    }
-
-    int solve(string& word1,string& word2,int i,int j){
-
-        if(i>=n && j>=m) return 0;
-        else if(i>=n){
-            return m-j;
-        }
-        else if(j>=m){
-            return n-i;
-        }
-
-        if(dp[i][j]!=-1) return dp[i][j];
-
-        if(word1[i]==word2[j]) return dp[i][j]=solve(word1,word2,i+1,j+1);
+         dp.assign(n+1,vector<int>(m+1,0));
         
-        return  dp[i][j]=1+min(solve(word1,word2,i+1,j) ,solve(word1,word2,i,j+1));
+        for (int i = n - 1; i >= 0; i--) dp[i][m] = n - i;
+        for (int j = m - 1; j >= 0; j--) dp[n][j] = m - j;
+        
+        for(int i=n-1;i>=0;i--){
+            for(int j=m-1;j>=0;j--){
+                if(word1[i]==word2[j]) dp[i][j]=dp[i+1][j+1];
+                else{
+                    dp[i][j]=1+min(dp[i][j+1],dp[i+1][j]);
+                }
+            }
+        }
 
+        return dp[0][0];
     }
 };
