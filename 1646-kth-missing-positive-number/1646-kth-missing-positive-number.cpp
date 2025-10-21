@@ -1,24 +1,25 @@
 class Solution {
 public:
     int findKthPositive(vector<int>& arr, int k) {
-        
-        int end=*max_element(arr.begin(),arr.end());
+        int left = 0, right = arr.size() - 1;
 
-        for(int i=1;i<end;i++){
-            bool pre=false;
-            for(int j=0;j<arr.size();j++){
-                if(arr[j]==i){
-                    pre=true;
-                    break;
-                }
-            }
-            if(!pre) k--;
+        // Binary search to find how many numbers are missing before arr[mid]
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
 
-            if(k==0){
-                return i;
+            // Missing numbers before arr[mid] = arr[mid] - (mid + 1)
+            int missing = arr[mid] - (mid + 1);
+
+            if (missing < k) {
+                left = mid + 1; // need to go right
+            } else {
+                right = mid - 1; // go left
             }
         }
 
-        return end+k;
+        // After binary search:
+        // `right` is the index of the last element where missing < k
+        // kth missing = k + right + 1
+        return k + right + 1;
     }
 };
