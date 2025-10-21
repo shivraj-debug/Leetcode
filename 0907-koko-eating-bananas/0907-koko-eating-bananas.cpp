@@ -25,7 +25,12 @@ public:
         long long total_time=0;
 
         for(int i=0;i<piles.size();i++){
-            total_time += (piles[i] + mid - 1) / mid;      
+            // total_time += (piles[i] + mid - 1) / mid;    
+            if(piles[i]%mid==0){
+                total_time+=piles[i]/mid;
+            }else{
+                total_time+=piles[i]/mid+1;
+            }
         }
 
         if(total_time<=h){
