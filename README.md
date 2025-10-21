@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/shivraj-debug/Leetcode/tree/master/0679-24-game) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/shivraj-debug/Leetcode/tree/master/0830-largest-triangle-area) |
+| [0907-koko-eating-bananas](https://github.com/shivraj-debug/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/shivraj-debug/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/shivraj-debug/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/shivraj-debug/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/shivraj-debug/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0907-koko-eating-bananas](https://github.com/shivraj-debug/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1612-avoid-flood-in-the-city](https://github.com/shivraj-debug/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/shivraj-debug/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
