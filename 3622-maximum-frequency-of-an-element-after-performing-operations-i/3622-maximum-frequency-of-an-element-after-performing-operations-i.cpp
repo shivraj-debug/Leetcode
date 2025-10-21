@@ -1,39 +1,35 @@
 class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k, int numOperations) {
-        int n = nums.size(), ans = 0, left = 0, right = 0;
-        sort(nums.begin(), nums.end());
+        int maxele=*max_element(nums.begin(),nums.end())+k;
 
-        unordered_map<int, int> count;
-        for (int num : nums) {
-            count[num]++;
+        vector<int> freq(maxele+1,0);
+
+        for(auto& num:nums){
+            freq[num]++;
         }
 
-        for (int mid = 0; mid < n; mid++) {
-            while (nums[mid] - nums[left] > k) {
-                left++;
-            }
-
-            while (right < n - 1 && nums[right + 1] - nums[mid] <= k) {
-                right++;
-            }
-
-            int total = right - left + 1;
-            ans = max(ans, min(total - count[nums[mid]], numOperations) + count[nums[mid]]);
+        for(int i=1;i<=maxele;i++){
+            freq[i]+=freq[i-1];
         }
 
-        left = 0;
-        for (right = 0; right < n; right++) {
-            int mid = (nums[left] + nums[right]) / 2;  
-            
-            while (mid - nums[left] > k || nums[right] - mid > k) {
-                left++;
-                mid = (nums[left] + nums[right]) / 2;
-            }
+        int result=1;
 
-            ans = max(ans, min(right - left + 1, numOperations));
+        for(int num=0;num<=maxele;num++){
+
+            if(freq[num]==0) continue;
+            int left = max(1, num - k);            
+            int right = min(maxele, num + k); 
+
+            int total_freq=freq[right]-freq[left-1];
+            int curr_ele_freq=freq[num]-freq[num-1];
+            int total_op_req=total_freq-curr_ele_freq;
+
+            int op=min(numOperations,total_op_req)+curr_ele_freq;
+
+            result=max(op,result);
         }
 
-        return ans;
+        return result;
     }
 };
