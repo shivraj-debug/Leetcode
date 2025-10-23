@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
+| [0208-implement-trie-prefix-tree](https://github.com/shivraj-debug/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/shivraj-debug/Leetcode/tree/master/0224-basic-calculator) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
 | [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
+| [0208-implement-trie-prefix-tree](https://github.com/shivraj-debug/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shivraj-debug/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/shivraj-debug/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
+| [0208-implement-trie-prefix-tree](https://github.com/shivraj-debug/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0386-lexicographical-numbers](https://github.com/shivraj-debug/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/shivraj-debug/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
@@ -642,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/shivraj-debug/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/shivraj-debug/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/shivraj-debug/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/shivraj-debug/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
