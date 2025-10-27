@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [0516-longest-palindromic-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/shivraj-debug/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
+| [0686-repeated-string-match](https://github.com/shivraj-debug/Leetcode/tree/master/0686-repeated-string-match) |
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/shivraj-debug/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1197-parsing-a-boolean-expression](https://github.com/shivraj-debug/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
@@ -848,6 +849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivraj-debug/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0686-repeated-string-match](https://github.com/shivraj-debug/Leetcode/tree/master/0686-repeated-string-match) |
 ## Number Theory
 |  |
 | ------- |
