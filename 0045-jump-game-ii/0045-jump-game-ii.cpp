@@ -1,31 +1,32 @@
 class Solution {
 public:
-    
+
     vector<int> dp;
-
+    
     int jump(vector<int>& nums) {
-     
-        dp.resize(nums.size()+1,-1);
-        return solve(nums,0);
-
-        
+        int n=nums.size();
+        dp.resize(n,-1);
+       return  minJumps(nums,0);
+         
     }
 
-    int solve(vector<int>& nums,int i){
+    int minJumps(vector<int>& nums, int position) {
+    
+        if (position >= nums.size() - 1) return 0;
 
-        if(i>=nums.size()-1) return 0;
+        if (nums[position] == 0) return INT_MAX;
 
-        if(nums[i]==0) return 1e9;
+        if(dp[position]!=-1) return dp[position];
 
-         if(dp[i]!=-1) return dp[i];
-        
-        int ans=1e9;
-        for(int l=1;l<=nums[i];l++){
-            
-            ans=min(ans,1+solve(nums,i+l));
-            
+        int minStep = INT_MAX;
+
+        for (int jump = 1; jump <= nums[position]; ++jump) {
+            int subResult = minJumps(nums, position + jump);
+
+            if (subResult != INT_MAX)
+                minStep = min(minStep, 1 + subResult);
         }
 
-        return dp[i]=ans;
+        return dp[position]=minStep;
     }
 };
