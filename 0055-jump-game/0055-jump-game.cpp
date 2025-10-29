@@ -1,20 +1,23 @@
 class Solution {
 public:
-
-    vector<int> dp;
-
     bool canJump(vector<int>& nums) {
         int n=nums.size();
-        int rechable=0;
+        vector<bool> dp(n,false);
 
-        for(int i=0;i<n;i++){
-            if(rechable<i){
-                return false;
+        dp[n-1]=true;
+
+        for(int i=n-2;i>=0;i--){
+            int farthest=min(n-1,i+nums[i]);
+
+            for(int j=i+1;j<=farthest;j++){
+                if(dp[j]==true){
+                    dp[i]=true;
+                    break;
+                }
             }
-
-            rechable=max(rechable,i+nums[i]);
         }
-        return true;
-    }
 
+        return dp[0];
+        
+    }
 };
