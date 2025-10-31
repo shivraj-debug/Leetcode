@@ -4,34 +4,28 @@ public:
     vector<vector<int>> ans;
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         n=nums.size();
-        unordered_map<int,int> mp;
-
-        for(int& num:nums){
-            mp[num]++;
-        }
-
-        vector<int> temp;
-
-        solve(temp,mp);
+        solve(nums,0);
 
         return ans;
     }
 
-    void solve(vector<int>& temp,unordered_map<int,int>& mp){
-        if(temp.size()==n){
-            ans.push_back(temp);
+    void solve(vector<int>& nums,int idx){
+        if(idx==n){
+            ans.push_back(nums);
             return;
         }
 
-        for(auto& [num,freq]:mp){
-            if(freq==0) continue;
+        unordered_set<int> st;
 
-            temp.push_back(num);
-            mp[num]--;
-            solve(temp,mp);
+        for(int i=idx;i<n;i++){
+            if(st.find(nums[i])!=st.end()) continue;
 
-            temp.pop_back();
-            mp[num]++;
+            st.insert(nums[i]);
+            swap(nums[i],nums[idx]);
+
+            solve(nums,idx+1);
+
+            swap(nums[i],nums[idx]);
             
         }
     }
