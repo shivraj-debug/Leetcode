@@ -3,26 +3,13 @@ public:
 vector<vector<int>> dp;
     int maxProfit(vector<int>& prices, int fee) {
         int n=prices.size();
-        dp.resize(n,vector<int>(2,-1));
-        return solve(prices,0,true,fee);
-    }
+        vector<vector<int>> dp(n+1,vector<int>(2,0));
 
-    int solve(vector<int>& prices,int i,bool buy,int fee){
-        if(i>=prices.size()){
-            return 0;
+        for(int i=n-1;i>=0;i--){
+            dp[i][1]=max(-prices[i]+dp[i+1][0],dp[i+1][1]);
+            dp[i][0]=max(prices[i]-fee+dp[i+1][1],dp[i+1][0]);
         }
 
-        if(dp[i][buy]!=-1) return dp[i][buy];
-
-        int take,notTake;
-        if(buy){
-            take=solve(prices,i+1,!buy,fee)-prices[i];
-            notTake=solve(prices,i+1,buy,fee);
-        }else{
-            take=solve(prices,i+1,!buy,fee)+prices[i]-fee;
-            notTake=solve(prices,i+1,buy,fee);
-        }
-
-        return dp[i][buy]=max(take,notTake);
+        return dp[0][1];
     }
 };
