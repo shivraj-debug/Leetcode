@@ -524,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/shivraj-debug/Leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/shivraj-debug/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/shivraj-debug/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 | [0220-contains-duplicate-iii](https://github.com/shivraj-debug/Leetcode/tree/master/0220-contains-duplicate-iii) |
 | [0274-h-index](https://github.com/shivraj-debug/Leetcode/tree/master/0274-h-index) |
@@ -588,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/shivraj-debug/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/shivraj-debug/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/shivraj-debug/Leetcode/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/shivraj-debug/Leetcode/tree/master/0189-rotate-array) |
 | [0295-find-median-from-data-stream](https://github.com/shivraj-debug/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/shivraj-debug/Leetcode/tree/master/0455-assign-cookies) |
@@ -732,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/shivraj-debug/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/shivraj-debug/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/shivraj-debug/Leetcode/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/shivraj-debug/Leetcode/tree/master/0206-reverse-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/shivraj-debug/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/shivraj-debug/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -741,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/shivraj-debug/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/shivraj-debug/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/shivraj-debug/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/shivraj-debug/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/shivraj-debug/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Breadth-First Search
@@ -811,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/shivraj-debug/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/shivraj-debug/Leetcode/tree/master/0148-sort-list) |
 ## Probability and Statistics
 |  |
 | ------- |
