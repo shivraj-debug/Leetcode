@@ -11,25 +11,58 @@
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
-        vector<int> help;
-        ListNode* temp=head;
+        if(!head || !head->next) return head;
 
-        while(temp!=NULL){
-            help.push_back(temp->val);
+        ListNode* middle=findMiddle(head);
+
+        ListNode* right=middle->next;
+        middle->next=nullptr;
+
+       ListNode* leftSort= sortList(head);
+       ListNode* rightSort= sortList(right);
+
+        return mergeSort(leftSort,rightSort);
+    }
+
+
+    ListNode* mergeSort(ListNode* head,ListNode* right){
+        ListNode* newHead=new ListNode(-1);
+        ListNode* temp=newHead;
+
+        while(head && right){
+            if(head->val>=right->val){
+                temp->next=right;
+                right=right->next;
+            }else{
+                temp->next=head;
+                head=head->next;
+            }
             temp=temp->next;
         }
 
-        temp=head;
-        int i=0;
 
-        sort(help.begin(),help.end());
-
-        while(temp!=NULL){
-            temp->val=help[i];
-            temp=temp->next;
-            i++;
+        if(head){
+            temp->next=head;
+        }
+        else if(right){
+            temp->next=right;
         }
 
-        return head;
+        return newHead->next;
+    }
+
+    ListNode* findMiddle(ListNode* head){
+
+        if(!head || !head->next) return head;
+
+        ListNode* slow=head;
+        ListNode* fast=head->next;
+
+        while(fast && fast->next){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+
+        return slow;
     }
 };
