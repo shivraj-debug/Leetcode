@@ -2,7 +2,7 @@ class Solution {
 public:
     string removeOuterParentheses(string s) {
         stack<char> st;
-        vector<string> helper;
+        string res="";
         string temp="";
         for(int i=0;i<s.size();i++){
             if(s[i]=='('){
@@ -12,16 +12,11 @@ public:
                   temp+=')';
                   st.pop();
                   if(st.empty()){
-                    helper.push_back(temp);
+                    int n=temp.size();
+                    res+=temp.substr(1,n-2);
                     temp="";
                   }
             }
-        }
-
-        string res="";
-        for(string& it:helper){
-            int n=it.size();
-            res+=it.substr(1,n-2);
         }
 
         return res;
