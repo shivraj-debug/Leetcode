@@ -499,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/shivraj-debug/Leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/shivraj-debug/Leetcode/tree/master/0013-roman-to-integer) |
 | [0060-permutation-sequence](https://github.com/shivraj-debug/Leetcode/tree/master/0060-permutation-sequence) |
+| [0070-climbing-stairs](https://github.com/shivraj-debug/Leetcode/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/shivraj-debug/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0189-rotate-array](https://github.com/shivraj-debug/Leetcode/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/shivraj-debug/Leetcode/tree/master/0224-basic-calculator) |
@@ -634,6 +635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/shivraj-debug/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/shivraj-debug/Leetcode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/shivraj-debug/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/shivraj-debug/Leetcode/tree/master/0072-edit-distance) |
 | [0087-scramble-string](https://github.com/shivraj-debug/Leetcode/tree/master/0087-scramble-string) |
 | [0118-pascals-triangle](https://github.com/shivraj-debug/Leetcode/tree/master/0118-pascals-triangle) |
@@ -689,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/shivraj-debug/Leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
