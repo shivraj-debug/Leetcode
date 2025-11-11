@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/shivraj-debug/Leetcode/tree/master/0224-basic-calculator) |
 | [0451-sort-characters-by-frequency](https://github.com/shivraj-debug/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0474-ones-and-zeroes](https://github.com/shivraj-debug/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [0516-longest-palindromic-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/shivraj-debug/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/shivraj-debug/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/shivraj-debug/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/shivraj-debug/Leetcode/tree/master/0455-assign-cookies) |
+| [0474-ones-and-zeroes](https://github.com/shivraj-debug/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/shivraj-debug/Leetcode/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/shivraj-debug/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0518-coin-change-ii) |
@@ -654,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/shivraj-debug/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/shivraj-debug/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivraj-debug/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0474-ones-and-zeroes](https://github.com/shivraj-debug/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0488-zuma-game](https://github.com/shivraj-debug/Leetcode/tree/master/0488-zuma-game) |
 | [0494-target-sum](https://github.com/shivraj-debug/Leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
