@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/shivraj-debug/Leetcode/tree/master/0621-task-scheduler) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/shivraj-debug/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0759-set-intersection-size-at-least-two](https://github.com/shivraj-debug/Leetcode/tree/master/0759-set-intersection-size-at-least-two) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/shivraj-debug/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1448-maximum-69-number](https://github.com/shivraj-debug/Leetcode/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/shivraj-debug/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivraj-debug/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1121-partition-array-for-maximum-sum](https://github.com/shivraj-debug/Leetcode/tree/master/1121-partition-array-for-maximum-sum) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/shivraj-debug/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/shivraj-debug/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shivraj-debug/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -578,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/shivraj-debug/Leetcode/tree/master/0621-task-scheduler) |
 | [0759-set-intersection-size-at-least-two](https://github.com/shivraj-debug/Leetcode/tree/master/0759-set-intersection-size-at-least-two) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/shivraj-debug/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/shivraj-debug/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/shivraj-debug/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivraj-debug/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -686,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0934-bitwise-ors-of-subarrays](https://github.com/shivraj-debug/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1121-partition-array-for-maximum-sum](https://github.com/shivraj-debug/Leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1250-longest-common-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/shivraj-debug/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/shivraj-debug/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/shivraj-debug/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
