@@ -3,21 +3,22 @@ public:
     vector<vector<int>> dp;
     int maxSumDivThree(vector<int>& nums) {
         int n=nums.size();
-        dp.resize(n,vector<int>(3,-1));
-        return solve(0,0,nums);
-    }
+        dp.resize(n+1,vector<int>(3,INT_MIN));
+        
+        dp[n][0]=0;
+        dp[n][1]=INT_MIN;
+        dp[n][2]=INT_MIN;
 
-    int solve(int i,int rem,vector<int>& nums){
-        if(i>=nums.size()){
-            if(rem==0) return 0;
-            else return INT_MIN;
+
+        for(int i=n-1;i>=0;i--){
+            for(int rem=0;rem<=2;rem++){
+                int newrem=(nums[i]+rem)%3;
+                int take=nums[i]+dp[i+1][newrem];
+                int skip=dp[i+1][rem];
+                dp[i][rem]=max(take,skip);
+            }
         }
 
-        if(dp[i][rem]!=-1) return dp[i][rem];
-
-        int take=nums[i]+solve(i+1,(nums[i]+rem)%3,nums);
-        int skip=solve(i+1,rem,nums);
-
-        return dp[i][rem]=max(take,skip);
+        return dp[0][0];
     }
 };
