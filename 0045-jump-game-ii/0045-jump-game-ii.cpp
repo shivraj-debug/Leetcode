@@ -1,32 +1,22 @@
 class Solution {
 public:
-
-    vector<int> dp;
     
     int jump(vector<int>& nums) {
         int n=nums.size();
-        dp.resize(n,-1);
-       return  minJumps(nums,0);
-         
-    }
+        vector<int> dp(n,INT_MAX);
+        dp[n-1]=0;
 
-    int minJumps(vector<int>& nums, int position) {
-    
-        if (position >= nums.size() - 1) return 0;
-
-        if (nums[position] == 0) return INT_MAX;
-
-        if(dp[position]!=-1) return dp[position];
-
-        int minStep = INT_MAX;
-
-        for (int jump = 1; jump <= nums[position]; ++jump) {
-            int subResult = minJumps(nums, position + jump);
-
-            if (subResult != INT_MAX)
-                minStep = min(minStep, 1 + subResult);
+        for(int i=n-2;i>=0;i--){
+            if(nums[i]==0) continue;
+            for(int j=1;j<=nums[i];j++){
+                if(i+j<n && dp[i+j]!=INT_MAX ){                 
+                    dp[i]=min(dp[i],1+dp[i+j]);
+                }
+            }
         }
 
-        return dp[position]=minStep;
+        return dp[0];
+
+
     }
 };
