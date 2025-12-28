@@ -408,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0934-bitwise-ors-of-subarrays](https://github.com/shivraj-debug/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/shivraj-debug/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [0994-rotting-oranges](https://github.com/shivraj-debug/Leetcode/tree/master/0994-rotting-oranges) |
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/shivraj-debug/Leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivraj-debug/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -867,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0994-rotting-oranges](https://github.com/shivraj-debug/Leetcode/tree/master/0994-rotting-oranges) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/shivraj-debug/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/shivraj-debug/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [3863-power-grid-maintenance](https://github.com/shivraj-debug/Leetcode/tree/master/3863-power-grid-maintenance) |
@@ -914,6 +916,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/shivraj-debug/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/shivraj-debug/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0994-rotting-oranges](https://github.com/shivraj-debug/Leetcode/tree/master/0994-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/shivraj-debug/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/shivraj-debug/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
