@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/shivraj-debug/Leetcode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/shivraj-debug/Leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/shivraj-debug/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/shivraj-debug/Leetcode/tree/master/0079-word-search) |
 | [0087-scramble-string](https://github.com/shivraj-debug/Leetcode/tree/master/0087-scramble-string) |
 | [0132-palindrome-partitioning-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/shivraj-debug/Leetcode/tree/master/0139-word-break) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/shivraj-debug/Leetcode/tree/master/0079-word-search) |
 | [0386-lexicographical-numbers](https://github.com/shivraj-debug/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0417-pacific-atlantic-water-flow](https://github.com/shivraj-debug/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/shivraj-debug/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/shivraj-debug/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/shivraj-debug/Leetcode/tree/master/0057-insert-interval) |
+| [0079-word-search](https://github.com/shivraj-debug/Leetcode/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/shivraj-debug/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -783,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/shivraj-debug/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0052-n-queens-ii) |
+| [0079-word-search](https://github.com/shivraj-debug/Leetcode/tree/master/0079-word-search) |
 | [0140-word-break-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0140-word-break-ii) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/shivraj-debug/Leetcode/tree/master/0494-target-sum) |
@@ -910,6 +914,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/shivraj-debug/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/shivraj-debug/Leetcode/tree/master/0037-sudoku-solver) |
+| [0079-word-search](https://github.com/shivraj-debug/Leetcode/tree/master/0079-word-search) |
 | [0174-dungeon-game](https://github.com/shivraj-debug/Leetcode/tree/master/0174-dungeon-game) |
 | [0212-word-search-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0212-word-search-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/shivraj-debug/Leetcode/tree/master/0407-trapping-rain-water-ii) |
