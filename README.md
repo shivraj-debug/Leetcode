@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/shivraj-debug/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0594-longest-harmonious-subsequence](https://github.com/shivraj-debug/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/shivraj-debug/Leetcode/tree/master/0621-task-scheduler) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shivraj-debug/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0900-reordered-power-of-2](https://github.com/shivraj-debug/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/shivraj-debug/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1006-vowel-spellchecker](https://github.com/shivraj-debug/Leetcode/tree/master/1006-vowel-spellchecker) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shivraj-debug/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1300-critical-connections-in-a-network](https://github.com/shivraj-debug/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/shivraj-debug/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/shivraj-debug/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -878,6 +880,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/shivraj-debug/Leetcode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/shivraj-debug/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/shivraj-debug/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shivraj-debug/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0994-rotting-oranges](https://github.com/shivraj-debug/Leetcode/tree/master/0994-rotting-oranges) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/shivraj-debug/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/shivraj-debug/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
@@ -889,6 +892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shivraj-debug/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/shivraj-debug/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/shivraj-debug/Leetcode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/shivraj-debug/Leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
@@ -1101,5 +1105,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/shivraj-debug/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/shivraj-debug/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 <!---LeetCode Topics End-->
